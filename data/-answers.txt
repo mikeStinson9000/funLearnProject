@@ -1,10 +1,10 @@
 4
 9
-subtraction
-dividend
+Subtraction
+Dividend
 16
 2
-multiplication
+Multiplication
 27
 Brackets
 3
