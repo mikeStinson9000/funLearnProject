@@ -1,0 +1,37 @@
+{% extends 'base.html' %} {% block content %}
+<div class="container base-content welcome-page">
+  <div class="row">
+    <div class="col text-center">
+      <br />
+
+      <br /><br />
+
+      <h1>Welcome to Fun Learn, {{ username.title() }}</h1>
+
+      <hr />
+      <br />
+
+      <p>
+        This is an educational game meant to help you learn during these
+        COVID-19 times. The rules are as follows:
+      </p>
+      <ul>
+        <li>There are 10 Questions to answer.</li>
+        <li>You have three guesses per question.</li>
+        <li>If you answer the riddle on your first guess, you get 3 points.</li>
+        <li>One point gets deducted per wrong guess.</li>
+        <li>See how far you can get!</li>
+      </ul>
+      <br />
+      <br />
+
+      <form method="POST">
+        <p>Press the button below the start a new game.</p>
+        <br />
+
+        <button class="btn btn-dark hvr-round-corners">PLAY</button>
+      </form>
+    </div>
+  </div>
+</div>
+{% endblock %}

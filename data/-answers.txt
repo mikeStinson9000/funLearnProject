@@ -1,0 +1,10 @@
+4
+9
+subtraction
+dividend
+16
+2
+multiplication
+27
+Brackets
+3
