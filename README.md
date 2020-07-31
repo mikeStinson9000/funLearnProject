@@ -15,7 +15,7 @@ Try It Out - https://fun-learn.herokuapp.com/
 * HTML
 * JavaScript
 * CSS
-* MongoDB
+* MongoDB Atlas
 
 
 By: Mike Stinson
